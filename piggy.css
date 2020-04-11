@@ -1,3 +1,7 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
 body    {
     background: #ADD8E6;
 
@@ -7,16 +11,14 @@ img     {
     height: 62px;
     width: 190px;
     margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 43%;
+    margin-bottom: 5px;
+    margin-left: 45%;
 }
 .main       {
-    top: 65%;
-    left: 50%;
-    margin: 15px 0;
+    left: 38%;
     background: lightyellow;
     padding: 40px;
-    transform: translate(-50%, -50%);
+    margin: 10px, 15px;
     position: absolute;
     box-sizing: border-box;
     border-radius: 20px 20px 20px 0px;
@@ -32,7 +34,7 @@ h1 {
     color: lightslategrey;
     font-family: arial;
     font-size: 14px;
-    margin-top: -5px;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -108,9 +110,42 @@ button:hover    {
     color: #062863;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin: 790px 0 0 0;
-    bottom: 5px;
+    margin: 760px 0 10px 0;
+    
     text-align: center;
     cursor: pointer;
+
+}
+@media screen and (max-width: 760px)   {
+    .main {
+       left: 9%;
+        margin-top: 2%;
+       padding: 10px;
+    
+    }
+    img     {
+        margin-left: 69px;
+        margin-top: 10px;
+    }
+    h1  {
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+    .sub    {
+       
+        font-size: 12px;
+        margin-top: 1px;
+        text-align: center;
+    }
+    button      {
+        margin: 0 auto;
+        font-size: 10px;
+        width:70%;
+    }
+    .footer     {
+        margin: 670px 0 0 ;
+        bottom: 10px;   
+    
+    }
 
 }
